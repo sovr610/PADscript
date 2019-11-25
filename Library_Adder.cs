@@ -14,8 +14,8 @@ namespace PADscript
         private readonly List<object> assm = new List<object>();
         private readonly string[,] cmd_assm = new string[1000, 1000];
 
-        private readonly string dir = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData) + "\\PAD\\plugins\\Library\\";
-        private readonly string dir_libs = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData) + "\\PAD\\plugins";
+        private readonly string dir = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData) + "\\PADScript\\plugins\\Library\\";
+        private readonly string dir_libs = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData) + "\\PADScript\\plugins";
 
         private Script _p = new Script();
 

@@ -3,6 +3,7 @@ an open source scripting language built upon PAD technology and Lua. From Jarvis
 
 # Pre-requirements
 1. .NET Core 3.0 Runtime 
+3. For the usage of speech as of 2019-11-24 only windows users will need .NET 4.5+ for speech usage.
 2. Thats it!
 
 # Usage & Features
@@ -11,6 +12,14 @@ You can open the console to enter script commands or run a script file using `-f
 to execute a PADScript File.
 
 The file type is filename.pad or filename.lua since PADScript is built upon lua.
+
+### plugins
+To add additiona commands in the PADScript, you will need to make a C# .net Core library class project.
+Once the project is made, add what ever functions you want in it and the name of each function will be
+the same as the command in PADScript. Within your AppData directory look for PADScript folder, then under
+directory /plugins/Library/lib here just place the .dll file and it will be added automatically.
+
+The PADScriptTestLibraryPlugin folder is an example dll file that adds two integers.
 
 ## Featues
 1. The ability to add additional functions in the scripting language with C# .NET core 3.0 dll libraries.

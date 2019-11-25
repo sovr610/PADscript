@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\PAD_COLLECTION\\PADscript\\PADscript.csproj": {}
+    "C:\\Users\\Sovr6\\Desktop\\PADscript\\PADscript.csproj": {}
   },
   "projects": {
-    "D:\\PAD_COLLECTION\\PADscript\\PADscript.csproj": {
-      "version": "1.0.0",
+    "C:\\Users\\Sovr6\\Desktop\\PADscript\\PADscript.csproj": {
+      "version": "0.1.1",
       "restore": {
-        "projectUniqueName": "D:\\PAD_COLLECTION\\PADscript\\PADscript.csproj",
+        "projectUniqueName": "C:\\Users\\Sovr6\\Desktop\\PADscript\\PADscript.csproj",
         "projectName": "PADscript",
-        "projectPath": "D:\\PAD_COLLECTION\\PADscript\\PADscript.csproj",
+        "projectPath": "C:\\Users\\Sovr6\\Desktop\\PADscript\\PADscript.csproj",
         "packagesPath": "C:\\Users\\Sovr6\\.nuget\\packages\\",
-        "outputPath": "D:\\PAD_COLLECTION\\PADscript\\obj\\",
+        "outputPath": "C:\\Users\\Sovr6\\Desktop\\PADscript\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -41,6 +41,10 @@
       "frameworks": {
         "netcoreapp3.0": {
           "dependencies": {
+            "Microsoft.CodeAnalysis.FxCopAnalyzers": {
+              "target": "Package",
+              "version": "[2.9.3, )"
+            },
             "NLua": {
               "target": "Package",
               "version": "[1.4.25, )"
@@ -65,7 +69,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

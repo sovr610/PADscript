@@ -12,9 +12,14 @@ namespace PADscript
             Script script;
             Library_Adder adder;
             LIB_ADDER_V1 lib;
+            core c = new core();
 
             Console.WriteLine("PADscript v1.0");
             script = new Script();
+
+            script = c.loadScript(script);
+
+
             adder = new Library_Adder();
             lib = new LIB_ADDER_V1();
             lib.getLibrarySystem();

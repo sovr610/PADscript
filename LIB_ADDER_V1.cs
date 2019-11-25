@@ -8,7 +8,7 @@ namespace PADscript
 {
     public class LIB_ADDER_V1
     {
-        private string dir_libs = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData) + "\\PAD\\plugins";
+        private string dir_libs = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData) + "\\PADScript\\plugins";
 
         public LIB_ADDER_V1()
         {
@@ -54,7 +54,7 @@ namespace PADscript
             IEnumerable<string> files = Directory.GetFiles(dir_libs + "\\library\\lib");
 
             foreach (var _file in files)
-                if (!_file.Trim().Contains("Newtonsoft.Json"))
+                if (!_file.Trim().Contains("Newtonsoft.Json") && !_file.Trim().ToLower().Contains(".json") && _file.Trim().ToLower().Contains(".dll"))
                 {
                     var DLL = Assembly.LoadFile(_file);
                     var name = DLL.GetName();

@@ -1,0 +1,8 @@
+C:\Users\Sovr6\Desktop\PADScriptTestLibraryPlugin\bin\Release\netcoreapp3.0\PADScriptTestLibraryPlugin.deps.json
+C:\Users\Sovr6\Desktop\PADScriptTestLibraryPlugin\bin\Release\netcoreapp3.0\PADScriptTestLibraryPlugin.dll
+C:\Users\Sovr6\Desktop\PADScriptTestLibraryPlugin\bin\Release\netcoreapp3.0\PADScriptTestLibraryPlugin.pdb
+C:\Users\Sovr6\Desktop\PADScriptTestLibraryPlugin\obj\Release\netcoreapp3.0\PADScriptTestLibraryPlugin.csprojAssemblyReference.cache
+C:\Users\Sovr6\Desktop\PADScriptTestLibraryPlugin\obj\Release\netcoreapp3.0\PADScriptTestLibraryPlugin.AssemblyInfoInputs.cache
+C:\Users\Sovr6\Desktop\PADScriptTestLibraryPlugin\obj\Release\netcoreapp3.0\PADScriptTestLibraryPlugin.AssemblyInfo.cs
+C:\Users\Sovr6\Desktop\PADScriptTestLibraryPlugin\obj\Release\netcoreapp3.0\PADScriptTestLibraryPlugin.dll
+C:\Users\Sovr6\Desktop\PADScriptTestLibraryPlugin\obj\Release\netcoreapp3.0\PADScriptTestLibraryPlugin.pdb
