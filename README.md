@@ -14,12 +14,10 @@ to execute a PADScript File.
 The file type is filename.pad or filename.lua since PADScript is built upon lua.
 
 ### plugins
-To add additiona commands in the PADScript, you will need to make a C# .net Core library class project.
+To add additional commands in PADScript, you will need to make a C# .net Core library class project.
 Once the project is made, add what ever functions you want in it and the name of each function will be
-the same as the command in PADScript. Within your AppData directory look for PADScript folder, then under
+the same as the command name in PADScript. Within your AppData directory look for PADScript folder, then under
 directory /plugins/Library/lib here just place the .dll file and it will be added automatically.
-
-The PADScriptTestLibraryPlugin folder is an example dll file that adds two integers.
 
 ## Featues
 1. The ability to add additional functions in the scripting language with C# .NET core 3.0 dll libraries.
