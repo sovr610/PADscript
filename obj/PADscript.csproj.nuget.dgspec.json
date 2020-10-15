@@ -1,24 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Sovr6\\Desktop\\PADscript\\PADscript.csproj": {}
+    "C:\\Users\\Parker Bidigare\\Desktop\\PADscript\\PADscript.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Sovr6\\Desktop\\PADscript\\PADscript.csproj": {
+    "C:\\Users\\Parker Bidigare\\Desktop\\PADscript\\PADscript.csproj": {
       "version": "0.1.1",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Sovr6\\Desktop\\PADscript\\PADscript.csproj",
+        "projectUniqueName": "C:\\Users\\Parker Bidigare\\Desktop\\PADscript\\PADscript.csproj",
         "projectName": "PADscript",
-        "projectPath": "C:\\Users\\Sovr6\\Desktop\\PADscript\\PADscript.csproj",
-        "packagesPath": "C:\\Users\\Sovr6\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Sovr6\\Desktop\\PADscript\\obj\\",
+        "projectPath": "C:\\Users\\Parker Bidigare\\Desktop\\PADscript\\PADscript.csproj",
+        "packagesPath": "C:\\Users\\Parker Bidigare\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Parker Bidigare\\Desktop\\PADscript\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Sovr6\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Parker Bidigare\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.0"
@@ -29,6 +31,7 @@
         },
         "frameworks": {
           "netcoreapp3.0": {
+            "targetAlias": "netcoreapp3.0",
             "projectReferences": {}
           }
         },
@@ -40,6 +43,7 @@
       },
       "frameworks": {
         "netcoreapp3.0": {
+          "targetAlias": "netcoreapp3.0",
           "dependencies": {
             "Microsoft.CodeAnalysis.FxCopAnalyzers": {
               "target": "Package",
@@ -64,12 +68,31 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
+              "version": "[3.0.3, 3.0.3]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.win-x64",
+              "version": "[3.0.3, 3.0.3]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
+              "version": "[3.0.3, 3.0.3]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100-rc.2.20479.15\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win-x64": {
+          "#import": []
         }
       }
     }

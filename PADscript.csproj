@@ -15,6 +15,8 @@
     <RepositoryUrl>https://github.com/sovr610/PADscript</RepositoryUrl>
     <PackageProjectUrl>http://www.jarvishomeautomation.com</PackageProjectUrl>
     <Description>PADScript is a scripting language built upon Lua to allow easy to use and learn syntax. It is also built with .net Core 3.0 and utilizes the functionality of .net Core in the scripting language. You can add C# .net Core 3.0 dll files as a plugin system to add more functions to it. Happy scripting!</Description>
+    <AssemblyVersion>0.1.2.0</AssemblyVersion>
+    <FileVersion>0.1.2.0</FileVersion>
   </PropertyGroup>
 
   <ItemGroup>

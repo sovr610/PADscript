@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>PADscript</id>
+    <version>0.1.1</version>
+    <authors>Parker Bidigare</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectUrl>http://www.jarvishomeautomation.com/</projectUrl>
+    <description>PADScript is a scripting language built upon Lua to allow easy to use and learn syntax. It is also built with .net Core 3.0 and utilizes the functionality of .net Core in the scripting language. You can add C# .net Core 3.0 dll files as a plugin system to add more functions to it. Happy scripting!</description>
+    <releaseNotes>This release added speech for windows users only, need to work on for linux and macOS.</releaseNotes>
+    <copyright>Jarvis Home Automation</copyright>
+    <repository type="github" url="https://github.com/sovr610/PADscript" />
+    <dependencies>
+      <group targetFramework=".NETCoreApp3.0">
+        <dependency id="Microsoft.CodeAnalysis.FxCopAnalyzers" version="2.9.3" exclude="Build,Analyzers" />
+        <dependency id="NLua" version="1.4.25" exclude="Build,Analyzers" />
+        <dependency id="Newtonsoft.Json" version="12.0.3" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\Parker Bidigare\Desktop\PADscript\bin\Release\netcoreapp3.0\PADscript.runtimeconfig.json" target="lib\netcoreapp3.0\PADscript.runtimeconfig.json" />
+    <file src="C:\Users\Parker Bidigare\Desktop\PADscript\bin\Release\netcoreapp3.0\PADscript.dll" target="lib\netcoreapp3.0\PADscript.dll" />
+  </files>
+</package>

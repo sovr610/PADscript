@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "dgSpecHash": "J2Qg9JokFFZqnd2m/eG5XT91u/WphrRsIvo6vdR2NOXEsWDSN1Tfv2vDrE4yG6+ltijO5FHNT7+rjobssvm95A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Parker Bidigare\\Desktop\\PADscript\\PADscript.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Parker Bidigare\\.nuget\\packages\\keralua\\1.0.22\\keralua.1.0.22.nupkg.sha512",
+    "C:\\Users\\Parker Bidigare\\.nuget\\packages\\microsoft.codeanalysis.fxcopanalyzers\\2.9.3\\microsoft.codeanalysis.fxcopanalyzers.2.9.3.nupkg.sha512",
+    "C:\\Users\\Parker Bidigare\\.nuget\\packages\\microsoft.codeanalysis.versioncheckanalyzer\\2.9.3\\microsoft.codeanalysis.versioncheckanalyzer.2.9.3.nupkg.sha512",
+    "C:\\Users\\Parker Bidigare\\.nuget\\packages\\microsoft.codequality.analyzers\\2.9.3\\microsoft.codequality.analyzers.2.9.3.nupkg.sha512",
+    "C:\\Users\\Parker Bidigare\\.nuget\\packages\\microsoft.netcore.analyzers\\2.9.3\\microsoft.netcore.analyzers.2.9.3.nupkg.sha512",
+    "C:\\Users\\Parker Bidigare\\.nuget\\packages\\microsoft.netframework.analyzers\\2.9.3\\microsoft.netframework.analyzers.2.9.3.nupkg.sha512",
+    "C:\\Users\\Parker Bidigare\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\Parker Bidigare\\.nuget\\packages\\nlua\\1.4.25\\nlua.1.4.25.nupkg.sha512",
+    "C:\\Users\\Parker Bidigare\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\3.0.3\\microsoft.netcore.app.runtime.win-x64.3.0.3.nupkg.sha512",
+    "C:\\Users\\Parker Bidigare\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\3.0.3\\microsoft.windowsdesktop.app.runtime.win-x64.3.0.3.nupkg.sha512",
+    "C:\\Users\\Parker Bidigare\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\3.0.3\\microsoft.aspnetcore.app.runtime.win-x64.3.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

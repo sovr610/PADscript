@@ -86,6 +86,77 @@
           "lib/netcoreapp2.0/NLua.dll": {}
         }
       }
+    },
+    ".NETCoreApp,Version=v3.0/win-x64": {
+      "KeraLua/1.0.22": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp2.0/KeraLua.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/KeraLua.dll": {}
+        },
+        "native": {
+          "runtimes/win-x64/native/lua53.dll": {}
+        }
+      },
+      "Microsoft.CodeAnalysis.FxCopAnalyzers/2.9.3": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.CodeAnalysis.VersionCheckAnalyzer": "[2.9.3]",
+          "Microsoft.CodeQuality.Analyzers": "[2.9.3]",
+          "Microsoft.NetCore.Analyzers": "[2.9.3]",
+          "Microsoft.NetFramework.Analyzers": "[2.9.3]"
+        },
+        "build": {
+          "build/Microsoft.CodeAnalysis.FxCopAnalyzers.props": {}
+        }
+      },
+      "Microsoft.CodeAnalysis.VersionCheckAnalyzer/2.9.3": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.CodeAnalysis.VersionCheckAnalyzer.props": {}
+        }
+      },
+      "Microsoft.CodeQuality.Analyzers/2.9.3": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.CodeQuality.Analyzers.props": {}
+        }
+      },
+      "Microsoft.NetCore.Analyzers/2.9.3": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.NetCore.Analyzers.props": {}
+        }
+      },
+      "Microsoft.NetFramework.Analyzers/2.9.3": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.NetFramework.Analyzers.props": {}
+        }
+      },
+      "Newtonsoft.Json/12.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
+      "NLua/1.4.25": {
+        "type": "package",
+        "dependencies": {
+          "KeraLua": "1.0.22"
+        },
+        "compile": {
+          "lib/netcoreapp2.0/NLua.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/NLua.dll": {}
+        }
+      }
     }
   },
   "libraries": {
@@ -362,24 +433,27 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Sovr6\\.nuget\\packages\\": {},
+    "C:\\Users\\Parker Bidigare\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "0.1.1",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Sovr6\\Desktop\\PADscript\\PADscript.csproj",
+      "projectUniqueName": "C:\\Users\\Parker Bidigare\\Desktop\\PADscript\\PADscript.csproj",
       "projectName": "PADscript",
-      "projectPath": "C:\\Users\\Sovr6\\Desktop\\PADscript\\PADscript.csproj",
-      "packagesPath": "C:\\Users\\Sovr6\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Sovr6\\Desktop\\PADscript\\obj\\",
+      "projectPath": "C:\\Users\\Parker Bidigare\\Desktop\\PADscript\\PADscript.csproj",
+      "packagesPath": "C:\\Users\\Parker Bidigare\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Parker Bidigare\\Desktop\\PADscript\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Sovr6\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\Parker Bidigare\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.0"
@@ -390,6 +464,7 @@
       },
       "frameworks": {
         "netcoreapp3.0": {
+          "targetAlias": "netcoreapp3.0",
           "projectReferences": {}
         }
       },
@@ -401,6 +476,7 @@
     },
     "frameworks": {
       "netcoreapp3.0": {
+        "targetAlias": "netcoreapp3.0",
         "dependencies": {
           "Microsoft.CodeAnalysis.FxCopAnalyzers": {
             "target": "Package",
@@ -425,12 +501,31 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
+            "version": "[3.0.3, 3.0.3]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Runtime.win-x64",
+            "version": "[3.0.3, 3.0.3]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
+            "version": "[3.0.3, 3.0.3]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100-rc.2.20479.15\\RuntimeIdentifierGraph.json"
+      }
+    },
+    "runtimes": {
+      "win-x64": {
+        "#import": []
       }
     }
   }
