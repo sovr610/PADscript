@@ -88,3 +88,4 @@ C:\Users\parker\Desktop\PADscript\compiler\obj\Debug\netcoreapp3.0\PADscript.csp
 C:\Users\parker\Desktop\PADscript\compiler\obj\Debug\netcoreapp3.0\PADscript.dll
 C:\Users\parker\Desktop\PADscript\compiler\obj\Debug\netcoreapp3.0\PADscript.pdb
 C:\Users\parker\Desktop\PADscript\compiler\obj\Debug\netcoreapp3.0\PADscript.genruntimeconfig.cache
+C:\Users\parker\Desktop\PADscript\compiler\bin\Debug\netcoreapp3.0\System.Device.Gpio.dll

@@ -3,17 +3,20 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
 using System.Text;
+using System.Device.Gpio;
 
 namespace PADscript
 {
     public class core
     {
+ 
         private static readonly string dir_lib = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData) + "\\PADScript\\plugins\\Library\\";
         public static bool buildPluginProject(string pluginName)
         {
             try
             {
-                string cmd = "dotnet new classlib -lang \"C#\" -n \"" + pluginName + "\" -f netcoreapp3.0";
+                Console.WriteLine(Environment.CurrentDirectory);
+                string cmd = "cd " + Environment.CurrentDirectory + " && dotnet new classlib -lang \"C#\" -n \"" + pluginName + "\" -f netcoreapp3.0";
                 System.Diagnostics.Process process = new System.Diagnostics.Process();
                 System.Diagnostics.ProcessStartInfo startInfo = new System.Diagnostics.ProcessStartInfo();
                 startInfo.WindowStyle = System.Diagnostics.ProcessWindowStyle.Hidden;
@@ -30,11 +33,12 @@ namespace PADscript
             }
         }
 
+       
         public static bool integratePlugin()
         {
             try
             {
-                string build = "dotnet build --configuration Release";
+                string build = "cd " + Environment.CurrentDirectory + " && dotnet build --configuration Release";
                 System.Diagnostics.Process process = new System.Diagnostics.Process();
                 System.Diagnostics.ProcessStartInfo startInfo = new System.Diagnostics.ProcessStartInfo();
                 startInfo.WindowStyle = System.Diagnostics.ProcessWindowStyle.Hidden;

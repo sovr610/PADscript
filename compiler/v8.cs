@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Text;
+using PADscript.boards.raspberry_pi;
 
 namespace PADscript
 {
@@ -24,6 +25,7 @@ namespace PADscript
                 engine.EmbedHostType("env", typeof(Environment));
                 engine.EmbedHostType("MStype", typeof(Type));
                 engine.EmbedHostType("core", typeof(core));
+                engine.EmbedHostType("board", typeof(rasp));
                 // engine.EmbedHostType("graphics", typeof(runGraphicsApp));
                 return 1;
             }
