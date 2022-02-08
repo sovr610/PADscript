@@ -1,0 +1,2 @@
+C:\Users\parker\Desktop\PADscript\bin\Release\netcoreapp3.0\win-x64\publish\PADscript.pdb
+C:\Users\parker\Desktop\PADscript\bin\Release\netcoreapp3.0\win-x64\publish\PADscript.exe
