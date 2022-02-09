@@ -1,17 +1,29 @@
-name: .NET Core
+name: dotnet package
 
 on: [push]
 
 jobs:
   build:
 
+
+
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./compiler
+    strategy:
+      matrix:
+        dotnet-version: ['3.0', '3.1.x', '5.0.x' ]
 
     steps:
-    - uses: actions/checkout@v1
-    - name: Setup .NET Core
-      uses: actions/setup-dotnet@v1
-      with:
-        dotnet-version: 2.2.108
-    - name: Build with dotnet
-      run: dotnet build --configuration Release
+      - uses: actions/checkout@v2
+      - name: Setup .NET Core SDK ${{ matrix.dotnet-version }}
+        uses: actions/setup-dotnet@v1.7.2
+        with:
+          dotnet-version: ${{ matrix.dotnet-version }}
+      - name: Install dependencies
+        run: dotnet restore
+      - name: Build
+        run: dotnet build --configuration Release --no-restore
+      - name: Test
+        run: dotnet test --no-restore --verbosity normal
